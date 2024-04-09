@@ -1,4 +1,4 @@
-<img src="images/ai_cover_photo_bike.jpg" style>
+<img src="readme_photos/ai_cover_photo_bike.jpg" style>
 <h1 align="center">Predicting Shared </h1>
 
 <br>
@@ -27,12 +27,12 @@ The data was downloaded from <a href="https://archive.ics.uci.edu/dataset/186/wi
 # Methods Overview
 + Exploratory Data Analysis
   + Checking Data Quality
-  + ANOVA for Variable Selection
+  + Visualizing Numeric and Categorical Predictor Variables
 + Model Building
-  + Logistic Regression
-  + Naive Bayes
-  + Random Forest
-  + XGBoost
+  + 
+  + 
+  + Bagging Regressor 
+  + Random Forest Regressor
 + Model Parameter Tuning
   + Grid Search
   + Iterative Randomized Search
@@ -45,7 +45,6 @@ The data was downloaded from <a href="https://archive.ics.uci.edu/dataset/186/wi
 # Project Summary
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Model Building](#Model-Building)
-- [How Random Forests Work](#How-Random-Forests-Work)
 - [Model Parameter Tuning](#Model-Parameter-Tuning)
 - [Model Evaluation](#Model-Evaluation)
 - [Determining Important Variables](#Determining-Important-Variables)
@@ -75,18 +74,6 @@ In order to make this classification problem a little easier we will be binning 
 <img src="images/results_summary_table.png" width="532" height="225">
 <br>
 From this point on in the analysis, we will focus on the two top performing models: Random Forests, and XGBoost
-
-## How Random Forests Work  
-
-Given the inter-dependencies of the predictor variables, using tree-based methods might yield the best results. Random Forests and other more complex models like XGBoost can leverage the indirect correlations to the outcome variable, enhancing the models performance. 
-<br>
-<img src="images/RF_building_a_forest_explained.png" style>
-<br>
-
-Once a Random Forest is created, there are a few model parameters to keep in mind that we can tweek to improve it's performance.
-<br>
-<img src="images/RF_parameter_tuning_explained.png" style>
-<br>
 
 ## Model Parameter Tuning
 RF and XGBoost performed the best, let's take both models, tune them, and see if we can improve them further.
