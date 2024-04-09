@@ -143,7 +143,7 @@ The scatter plots and feature importance graph together suggest that while many 
 
 <img src="readme_photos/seasonality_chart.png" style>
 
-<img src="readme_photos/temp_hum_lin_graph.png" style="width: 723px; height: 541px;">
+<img src="readme_photos/temp_hum_lin_graph.png" style>
 
 <img src="readme_photos/test_results.png" style>
 
