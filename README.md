@@ -121,7 +121,7 @@ The scatter plots and feature importance graph together suggest that while many 
 - Features related to acidity, such as volatile acidity and fixed acidity, also play a significant role in the model's predictions.
 - 
 
-<img src="readme_photos/by_hour_dsitributions.png" style>
+<img src="readme_photos/by_hour_dsitributions.png" style="width: 1054px; height: 1043px;">
 
 <img src="readme_photos/categorical_distributions.png" style>
 
@@ -143,7 +143,7 @@ The scatter plots and feature importance graph together suggest that while many 
 
 <img src="readme_photos/seasonality_chart.png" style>
 
-<img src="readme_photos/temp_hum_lin_graph.png" style>
+<img src="readme_photos/temp_hum_lin_graph.png" style="width: 723px; height: 541px;">
 
 <img src="readme_photos/test_results.png" style>
 
