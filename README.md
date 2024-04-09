@@ -140,7 +140,7 @@ The scatter plots and feature importance graph together suggest that while many 
 <img src="readme_photos/predicted_vs_actual.png" style>
 
 <img src="readme_photos/residuals.png" style>
-
+yaa
 <img src="readme_photos/seasonality_chart.png" style>
 
 <img src="readme_photos/temp_hum_lin_graph.png" style>
