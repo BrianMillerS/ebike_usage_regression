@@ -2,8 +2,8 @@
 <h1 align="center">Cycles of Demand: Predicting Washington DC's E-Bike Rentals Usage </h1>
 
 <br>
-<a href="https://nbviewer.org/github/BrianMillerS/ebike_usage_regression/blob/main/ebike_regression_analysis.ipynb" target="_blank">Jupyter Notebook Viewer</a>
-<a href="https://raw.githubusercontent.com/BrianMillerS/ebike_usage_regression/4b5c92868da7195f29ce5d69f1c4bfb0d9f21a0b/BM_ebike_usage_presentation.pdf" target="_blank"> Powerpoint Presentation</a>
+<a href="https://nbviewer.org/github/BrianMillerS/ebike_usage_regression/blob/main/ebike_regression_analysis.ipynb" target="_blank">Jupyter Notebook Viewer</a>  
+<a href="https://raw.githubusercontent.com/BrianMillerS/ebike_usage_regression/4b5c92868da7195f29ce5d69f1c4bfb0d9f21a0b/BM_ebike_usage_presentation.pdf" target="_blank"> Download Powerpoint Presentation</a>
 <br>
 
 # Table of contents
