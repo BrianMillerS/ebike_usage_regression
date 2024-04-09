@@ -125,7 +125,7 @@ The scatter plots and feature importance graph together suggest that while many 
 
 <img src="readme_photos/categorical_distributions.png" style>
 
-<img src="readme_photos/coor_map.png" style>
+<img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
 
 <img src="readme_photos/data_example.png" style>
 
