@@ -119,3 +119,31 @@ The scatter plots and feature importance graph together suggest that while many 
   
 - The least important features suggest that within this dataset and model, aspects like pH and chlorides are not key drivers in predicting wine quality.
 - Features related to acidity, such as volatile acidity and fixed acidity, also play a significant role in the model's predictions.
+- 
+
+<img src="readme_photos/by_hour_dsitributions.png" style>
+
+<img src="readme_photos/categorical_distributions.png" style>
+
+<img src="readme_photos/coor_map.png" style>
+
+<img src="readme_photos/data_example.png" style>
+
+<img src="readme_photos/feature_importance.png" style>
+
+<img src="readme_photos/multi_model_perf.png" style>
+
+<img src="readme_photos/numerical_distributions.png" style>
+
+<img src="readme_photos/param_tuning_code.png" style>
+
+<img src="readme_photos/predicted_vs_actual.png" style>
+
+<img src="readme_photos/residuals.png" style>
+
+<img src="readme_photos/seasonality_chart.png" style>
+
+<img src="readme_photos/temp_hum_lin_graph.png" style>
+
+<img src="readme_photos/test_results.png" style>
+
