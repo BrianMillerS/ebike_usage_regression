@@ -145,6 +145,7 @@ yaa
 
 <img src="readme_photos/temp_hum_lin_graph.png" style>
 
-<img src="readme_photos/test_results.png" style>
+<img src="readme_photos/test_results.png" style="width: 974px; height: 237px;">
+
 
 
