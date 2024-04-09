@@ -129,7 +129,7 @@ The scatter plots and feature importance graph together suggest that while many 
 
 <img src="readme_photos/data_example.png" style>
 
-<img src="readme_photos/feature_importance.png" style>
+<img src="readme_photos/feature_importance.png" style="width: 882px; height: 675px;">
 
 <img src="readme_photos/multi_model_perf.png" style>
 
