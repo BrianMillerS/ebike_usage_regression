@@ -1,8 +1,8 @@
 <img src="readme_photos/ai_cover_photo_bike.jpg" style>
-<h1 align="center">Predicting Shared </h1>
+<h1 align="center">Cycles of Demand: Predicting Washington DC's E-Bike Rentals Usage </h1>
 
 <br>
-<a href="https://nbviewer.org/github/BrianMillerS/wine_quality_classification/blob/main/wine_score_classification.ipynb" target="_blank">Jupyter Notebook Viewer</a>
+<a href="https://nbviewer.org/github/BrianMillerS/ebike_usage_regression/blob/main/ebike_regression_analysis.ipynb" target="_blank">Jupyter Notebook Viewer</a>
 <br>
 
 # Table of contents
