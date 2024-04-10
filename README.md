@@ -13,12 +13,14 @@
 - [Project Summary](#project-summary)
 
 # Project Takeaway
-The goal of this project is to better understand what chemical and physical characteristics make a good wine. Using measurements from 1600 red wines, and their median professional wine score, we'll use machine learning to predict wine scores and what wine characteristics lead to better wine scores.
+The goal of this project was to understand the patterns of E-bike usage and create a predictive model that can forecast the number of riders per hour based on time and weather conditions.
 - Four models were tested: XGBoost, Random Forest, Logistic Regression, and Naive Bayes
 - XGBoost outperformed other models due to its superior handling of complex variable interactions and its flexibility in fine-tuning
 - XGBoost achieved a test accuracy of 0.85, F1 Score of 0.86, and an ROC AUC of 0.91
 - Higher alcohol content was the best indicator of increased wine quality
 - Sulphate content and acidity were the next best indicators of increased wine quality, they may contribute to a wine's aroma and flavor
+
+The insights and predictive model from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.
 
 <img src="images/results_summary_table.png" width="532" height="225">
 
