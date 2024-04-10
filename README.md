@@ -14,11 +14,9 @@
 
 # Project Takeaway
 The goal of this project was to understand the patterns of E-bike usage and create a predictive model that can forecast the number of riders per hour based on time and weather conditions.
-- Four models were tested: XGBoost, Random Forest, Logistic Regression, and Naive Bayes
-- XGBoost outperformed other models due to its superior handling of complex variable interactions and its flexibility in fine-tuning
-- XGBoost achieved a test accuracy of 0.85, F1 Score of 0.86, and an ROC AUC of 0.91
-- Higher alcohol content was the best indicator of increased wine quality
-- Sulphate content and acidity were the next best indicators of increased wine quality, they may contribute to a wine's aroma and flavor
+- Six models were tested: Linear Regression, Decision Tree Regressor, Random Forest Regressor, SGD Regressor, Bagging Regressor.
+- Random Forest Regressor had the best performace after parameter tuning with a R^2 = 0.89 and RMSE = 0.33 (6-fold xval).
+- Warmer weather, less humidity, and it being rush hour times were the best predictors of E-bike usage.
 
 The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.
 Potential changes could include:
@@ -27,8 +25,6 @@ Potential changes could include:
  - Offer discounts or incentives during no-optimal weather conditions.
  - If E-Bike rollbacks or updates need to be done, perform them during non-peak
 months
-
-<img src="images/results_summary_table.png" width="532" height="225">
 
 # Description of the Data
 The data was downloaded from <a href="https://archive.ics.uci.edu/dataset/186/wine+quality" target="_blank">UC Irvine’s curated repository</a> of datasets for machine learning. The data consisted of a single table with 1600 rows, each containing data on a specific portuguese red wine variant. Along with the wine’s quality score (the median score from three professional wine tasters) the table also had eleven other columns with measured physicochemical properties.
