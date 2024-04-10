@@ -28,7 +28,9 @@ The insights from this project could enable Capital Bikeshare and similar compan
 months
 
 # Description of the Data
-The data was downloaded from <a href="https://archive.ics.uci.edu/dataset/186/wine+quality" target="_blank">UC Irvine’s curated repository</a> of datasets for machine learning. The data consisted of a single table with 1600 rows, each containing data on a specific portuguese red wine variant. Along with the wine’s quality score (the median score from three professional wine tasters) the table also had eleven other columns with measured physicochemical properties.
+The dataset used in this project includes publicly available E-bike usage data from Capital Bikeshare and weather data for the Washington, D.C. area. Along with the wine’s quality score (the median score from three professional wine tasters) the table also had eleven other columns with measured physicochemical properties.
+
+<a href="https://capitalbikeshare.com/">Capital Bikeshare</a> 
 
 # Methods Overview
 + Exploratory Data Analysis
