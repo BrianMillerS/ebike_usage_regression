@@ -20,7 +20,13 @@ The goal of this project was to understand the patterns of E-bike usage and crea
 - Higher alcohol content was the best indicator of increased wine quality
 - Sulphate content and acidity were the next best indicators of increased wine quality, they may contribute to a wine's aroma and flavor
 
-The insights and predictive model from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.
+The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.
+Potential changes could include:
+ - Increase E-Bike redistribution before rush hour to capitalize on commuter usage.
+ - Add E-Bike charging stations near dense employment locations.
+ - Offer discounts or incentives during no-optimal weather conditions.
+ - If E-Bike rollbacks or updates need to be done, perform them during non-peak
+months
 
 <img src="images/results_summary_table.png" width="532" height="225">
 
