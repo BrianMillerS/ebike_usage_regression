@@ -28,7 +28,9 @@ The insights from this project could enable Capital Bikeshare and similar compan
 months
 
 # Description of the Data
-The dataset used in this project includes publicly available E-bike usage data from <a href="https://capitalbikeshare.com/" target="_blank">Capital Bikeshare</a> and weather data for the Washington, D.C. area. 
+The dataset is 2 years of E-bike usage, broken down by every hour of the day. All the data is publicly available from <a href="https://capitalbikeshare.com/" target="_blank">Capital Bikeshare</a>, this includes weather data for the Washington, D.C. area. 
+
+<img src="readme_photos/data_example.png" style>
 
 # Methods Overview
 + Exploratory Data Analysis
@@ -132,7 +134,7 @@ The scatter plots and feature importance graph together suggest that while many 
 
 <img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
 
-<img src="readme_photos/data_example.png" style>
+
 
 <img src="readme_photos/feature_importance.png" style="width: 882px; height: 675px;">
 
