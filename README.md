@@ -18,8 +18,7 @@ The goal of this project was to understand the patterns of E-bike usage and crea
 - Random Forest Regressor had the best performace after parameter tuning with a R^2 = 0.89 and RMSE = 0.33 (6-fold xval).
 - Warmer weather, less humidity, and it being rush hour times were the best predictors of E-bike usage.
 
-The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.  
-Potential business changes could include:
+The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction. <br> Potential business changes could include:
  - Increase E-Bike redistribution before rush hour to capitalize on commuter usage.
  - Add E-Bike charging stations near dense employment locations.
  - Offer discounts or incentives during no-optimal weather conditions.
