@@ -30,7 +30,7 @@ months
 # Description of the Data
 The dataset used in this project includes publicly available E-bike usage data from Capital Bikeshare and weather data for the Washington, D.C. area. Along with the wine’s quality score (the median score from three professional wine tasters) the table also had eleven other columns with measured physicochemical properties.
 
-<a href="https://capitalbikeshare.com/">Capital Bikeshare</a> 
+<a href="https://capitalbikeshare.com/" target="_blank">Capital Bikeshare</a> 
 
 # Methods Overview
 + Exploratory Data Analysis
