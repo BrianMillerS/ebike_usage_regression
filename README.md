@@ -82,8 +82,6 @@ We have:
 <br>  
 <img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
 <br>  
-<img src="readme_photos/temp_hum_lin_graph.png" style>
-<br>  
 
 
 ## Model Building  
@@ -124,7 +122,7 @@ Overall, the model appears to be performing well, with good predictive power and
 
 <img src="readme_photos/feature_importance.png" style="width: 882px; height: 675px;">
 
-
+<img src="readme_photos/temp_hum_lin_graph.png" style>
 
 
 
