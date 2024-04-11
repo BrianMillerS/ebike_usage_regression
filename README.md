@@ -30,6 +30,11 @@ months
 # Description of the Data
 The dataset is 2 years of E-bike usage, broken down by every hour of the day. All the data is publicly available from <a href="https://capitalbikeshare.com/" target="_blank">Capital Bikeshare</a>, this includes weather data for the Washington, D.C. area. 
 
+Lets take a look at all of the data in our dataset.  
+We have:  
+  - 11 predictor variables  
+  - 1 outcome variable (number of rides for that hour)
+
 <img src="readme_photos/data_example.png" style>
 
 # Methods Overview
@@ -67,98 +72,75 @@ The dataset is 2 years of E-bike usage, broken down by every hour of the day. Al
 
 ## Exploratory Data Analysis  
 
-First lets take a look at all of the data in our dataset.  
-We have:  
-  - 11 predictor variables  
-  - 1 outcome variable (quality)
+<img src="readme_photos/by_hour_dsitributions.png" style="width: 843px; height: 834px;">
+<br>  
+<img src="readme_photos/categorical_distributions.png" style>
+<br>  
+<img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
+<br>  
+<img src="readme_photos/numerical_distributions.png" style>
+<br>  
+<img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
+<br>  
+<img src="readme_photos/temp_hum_lin_graph.png" style>
+<br>  
 
-<img src="images/variable_distributions.png" style>  
-<br>
-
-In order to make this classification problem a little easier we will be binning wines into 'good' and 'bad' as follows:
-<br>
-<img src="images/data_binning.png" style>
-<br>
 
 ## Model Building  
 
-  - In order to train our models, the data was split into 80% training/ 20% testing
-  - Using the default models from Tensorflow here were the results:
+  - In order to train our models, the data was split into 70% training/ 30% testing
+  - Using the default models from Tensorflow here were the results (6-fold cross-validation)
 <br>
-<img src="images/results_summary_table.png" width="532" height="225">
+<img src="readme_photos/multi_model_perf.png" style>
 <br>
-From this point on in the analysis, we will focus on the two top performing models: Random Forests, and XGBoost
+From this point on in the analysis, we will focus on the top performing model: Random Forests Regressor
 
 ## Model Parameter Tuning
-RF and XGBoost performed the best, let's take both models, tune them, and see if we can improve them further.
+Random Forest Regressor had the best results, but let's see if we can do better.
 <br>
-A GridSearch was performed on the RF model, this approach is more time and resource intensive, but it is exhaustive, so we will know that we will be getting the best result. 
+An iterative randomized search was performed on the RF model. This approach is fast and still ensures that we are sampling the parameter space well by doing 20 different attempts.
 <br>
-<img src="images/RF_results.png" width="498" height="200">
+<img src="readme_photos/param_tuning_code.png" style>
 <br>
 
-#### XGBoost Results
-A Randomized search was performed on the XGBoost mode, this approach is faster, not exhaustive, but it is quick. To help ensure that we were getting still good results I did the Randomized search 10 times and picked the best result.
-<br>
-<img src="images/XGB_results.png" width="495" height="298">
-<br>
 
 ## Model Evaluation
 Now with the best model selected, and parameters tuned, we can evaluate the model and see how it performed.
 <br>
-<img src="images/XGB_confusion.png" style>
- - True Positives (TP): 144
- - True Positives (TP): 144
- - False Positives (FP): 25
- - False Negatives (FN): 27
+<img src="readme_photos/test_results.png" style="width: 974px; height: 237px;">
 <br>
 
-The model has an AUC of 0.91, which suggests it has a high accuracy in distinguishing between the classes
 <br>
-<img src="images/XBG_roc.png" width="532" height="382">
+<img src="readme_photos/residuals.png" style>
 <br>
+
+<br>
+<img src="readme_photos/predicted_vs_actual.png" style>
+<br>
+
 Overall, the model appears to be performing well, with good predictive power and a balance of error types that lean towards correct predictions.
 
 ## Determining Important Variables
-<br>
-<img src="images/XGB_correlation.png" style>
-Both Alcohol and Sulphates are positively correlated with wine score.
-<br>
-
-<br>
-<img src="images/XGB_gain.png" style>
-The scatter plots and feature importance graph together suggest that while many factors contribute to wine quality, alcohol content is potentially the most predictive, followed by sulphates.  
-<br>
-  
-- The least important features suggest that within this dataset and model, aspects like pH and chlorides are not key drivers in predicting wine quality.
-- Features related to acidity, such as volatile acidity and fixed acidity, also play a significant role in the model's predictions.
-- 
-
-<img src="readme_photos/by_hour_dsitributions.png" style="width: 843px; height: 834px;">
-
-<img src="readme_photos/categorical_distributions.png" style>
-
-<img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
-
-
 
 <img src="readme_photos/feature_importance.png" style="width: 882px; height: 675px;">
 
-<img src="readme_photos/multi_model_perf.png" style>
 
-<img src="readme_photos/numerical_distributions.png" style>
 
-<img src="readme_photos/param_tuning_code.png" style>
 
-<img src="readme_photos/predicted_vs_actual.png" style>
 
-<img src="readme_photos/residuals.png" style>
-yaa
-<img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
 
-<img src="readme_photos/temp_hum_lin_graph.png" style>
 
-<img src="readme_photos/test_results.png" style="width: 974px; height: 237px;">
+
+
+
+
+
+
+
+
+
+
+
 
 
 
