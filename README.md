@@ -34,21 +34,27 @@ The dataset is 2 years of E-bike usage, broken down by every hour of the day. Al
 
 # Methods Overview
 + Exploratory Data Analysis
-  + Checking Data Quality
+  + Checking Data Quality (data types, null values)
   + Visualizing Numeric and Categorical Predictor Variables
+  + Explore Variables Most Correlated with E-Bike Usage
++ Data Preparation
+  + Drop Redundant Variables
+  + Standard Scale Numeric Variables
+  + One-Hot Encode Categorical Variables
+  + Split Data (70 training/ 30 test)
 + Model Building
-  + 
-  + 
+  + Linear Regression
+  + Decision Tree Regressor
+  + SGD Regressor
   + Bagging Regressor 
   + Random Forest Regressor
+  + Compare results of R^2 and RMSE (6-fold cross-validation)
 + Model Parameter Tuning
-  + Grid Search
-  + Iterative Randomized Search
+  + Iterative Randomized Search for Random Forest Regressor
 + Model Evaluation
-  + Accuracy
-  + F1 Score
-  + ROC Curve/ Confusion Matrix
-  + Identifying the Most Important Variables for Wine Quality Prediction
+  + R^2, RMSE
+  + Residuals vs Actual, Predicted vs Actual
+  + Identifying the Most Important Variables, Mean Gini Decrease
 
 # Project Summary
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
