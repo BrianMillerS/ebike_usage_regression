@@ -88,7 +88,8 @@ Looking at the plots there are a few takeaways:
 
 Now let's dive a little deeper and break down the average day for an E-bike user:
 - Not suprisingly, rides happen most during the waking hours of a day
-- Peak usage times happen during work days when people commute to and from work  
+- Peak usage times happen during work days when people commute to and from work
+- 
   
 <img src="readme_photos/by_hour_dsitributions.png" style="width: 590px; height: 583px;">
 <br>
@@ -99,6 +100,7 @@ Finally let's break down the interplay between weather for a given season:
 
 <img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
 <br>  
+
 Explanation of Weather Situations:
 - Clear: Clear, Few clouds, Partly cloudy, Partly cloud
 - Cloudy/Misty: Mist or Cloudy, Mist or Broken clouds, Mist or Few clouds, Mist
