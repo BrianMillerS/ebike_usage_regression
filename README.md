@@ -75,14 +75,14 @@ We have:
 ### Categorical Variables
 Our categorical variables can be broken up into two types:
 - Time (season, month, day, hour)
-- Weather Status (Clear, Couldy/Misty, Light Rain/Snow, Heavy Rain/Snow)
-<br>
+- Weather Status (Clear, Couldy/Misty, Light Rain/Snow, Heavy Rain/Snow)  
+<br>  
 Looking at the plots there are a few takeaways:
 - More rides during the summer, fall, and winter seasons (the warmer seasons)
 - More rides on the weekends
-- More rides when the weather is better
-<br>
-It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.
+- More rides when the weather is better  
+<br>  
+It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.  
 
 <br>
 <img src="readme_photos/categorical_distributions.png" style>
