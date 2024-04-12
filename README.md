@@ -22,7 +22,7 @@ The insights from this project could enable Capital Bikeshare and similar compan
 
 <br> 
 
-###Potential business changes could include
+### Potential business changes could include
 
  - Increase E-Bike redistribution before rush hour to capitalize on commuter usage.
  - Add E-Bike charging stations near dense employment locations.
