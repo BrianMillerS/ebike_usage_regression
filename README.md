@@ -84,7 +84,7 @@ Looking at the plots there are a few takeaways:
 - More rides when the weather is better
 
 <br>
-<img src="readme_photos/categorical_distributions.png" style>
+<img src="readme_photos/categorical_distributions.png" style>  
 It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.  
 <br>  
 
