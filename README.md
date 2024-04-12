@@ -98,8 +98,7 @@ Finally let's break down the interplay between weather for a given season:
 - Bad weather really does dissuade riders, regarless of season
 - Again we see a trend for more rides during warmer months
 
-<img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
-<br>  
+<img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;"> 
 
 Explanation of Weather Situations:
 - Clear: Clear, Few clouds, Partly cloudy, Partly cloud
@@ -107,6 +106,7 @@ Explanation of Weather Situations:
 - Light Rain/Snow: Light Snow, Light Rain or Thunderstorm or Scattered clouds, Light Rain or Scattered clouds
 - Heavy Rain/Snow: Heavy Rain or Ice Pallets or Thunderstorm or Mist, Snow or Fog
 
+<br>
 
 ### Numerical Variables
 Our categorical variabeles are the following:
