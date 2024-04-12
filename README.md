@@ -22,7 +22,7 @@ The insights from this project could enable Capital Bikeshare and similar compan
 
 <br> 
 
-### Potential business changes could include
+### Potential business changes could include:
 
  - Increase E-Bike redistribution before rush hour to capitalize on commuter usage.
  - Add E-Bike charging stations near dense employment locations.
@@ -128,9 +128,9 @@ Creating a quick Pearson's Correlation heatmat we can see:
 <br>  
 
 ## Model Building  
+In order to train our models, the data was split into 70% training/ 30% testing
 
-  - In order to train our models, the data was split into 70% training/ 30% testing
-  - Using the default models from Tensorflow here were the results (6-fold cross-validation)
+
 <br>
 <img src="readme_photos/multi_model_perf.png" style>
 <br>
