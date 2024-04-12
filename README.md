@@ -20,7 +20,8 @@ The goal of this project was to understand the patterns of E-bike usage and crea
 
 The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.  
 
-<br> Potential business changes could include:
+<br> 
+###Potential business changes could include:
  - Increase E-Bike redistribution before rush hour to capitalize on commuter usage.
  - Add E-Bike charging stations near dense employment locations.
  - Offer discounts or incentives during no-optimal weather conditions.
@@ -117,7 +118,7 @@ Our categorical variabeles are the following:
 <img src="readme_photos/numerical_distributions.png" style>
 <br>  
 
-Creating a quick Pearson's Correlation heatmat we can see that:
+Creating a quick Pearson's Correlation heatmat we can see:
 - More rides in higher temperatures
 - Less rides in higher humidities
 - Rides are pretty indiferent about weather it's windy out
