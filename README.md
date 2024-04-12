@@ -82,17 +82,16 @@ Looking at the plots there are a few takeaways:
 - More rides during the summer, fall, and winter seasons (the warmer seasons)
 - More rides on the weekends
 - More rides when the weather is better
-<br>  
-It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.  
 
 <br>
 <img src="readme_photos/categorical_distributions.png" style>
+It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.  
 <br>  
 
 Let's dive a little deeper and break down the average day for an E-bike user.
 - Not suprisingly, rides happen most during the waking hours of a day
-- Peak usage times happen during work days when people commute to and from work
-<br>
+- Peak usage times happen during work days when people commute to and from work  
+  
 <img src="readme_photos/by_hour_dsitributions.png" style="width: 590px; height: 583px;">
 <br>
 
