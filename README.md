@@ -76,11 +76,12 @@ We have:
 Our categorical variables can be broken up into two types:
 - Time (season, month, day, hour)
 - Weather Status (Clear, Couldy/Misty, Light Rain/Snow, Heavy Rain/Snow)  
-<br>  
+<br>
+
 Looking at the plots there are a few takeaways:
 - More rides during the summer, fall, and winter seasons (the warmer seasons)
 - More rides on the weekends
-- More rides when the weather is better  
+- More rides when the weather is better
 <br>  
 It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.  
 
