@@ -99,11 +99,12 @@ Finally let's break down the interplay between weather for a given season:
 
 <img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
 <br>  
-Explanation of Weather Situations
-1 (Clear): Clear, Few clouds, Partly cloudy, Partly cloud
-2 (Cloudy/Misty): Mist or Cloudy, Mist or Broken clouds, Mist or Few clouds, Mist
-3 (Light Rain/Snow): Light Snow, Light Rain or Thunderstorm or Scattered clouds, Light Rain or Scattered clouds
-4 (Heavy Rain/Snow): Heavy Rain or Ice Pallets or Thunderstorm or Mist, Snow or Fog
+Explanation of Weather Situations:
+- Clear: Clear, Few clouds, Partly cloudy, Partly cloud
+- Cloudy/Misty: Mist or Cloudy, Mist or Broken clouds, Mist or Few clouds, Mist
+- Light Rain/Snow: Light Snow, Light Rain or Thunderstorm or Scattered clouds, Light Rain or Scattered clouds
+- Heavy Rain/Snow: Heavy Rain or Ice Pallets or Thunderstorm or Mist, Snow or Fog
+
 
 ### Numerical Variables
 Our categorical variabeles are the following:
