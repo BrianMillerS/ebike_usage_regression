@@ -72,17 +72,34 @@ We have:
 
 ## Exploratory Data Analysis  
 
-<img src="readme_photos/by_hour_dsitributions.png" style="width: 843px; height: 834px;">
-<br>  
+### Exploring our Categorical Variables
+Our categorical variables can be broken up into two types:
+- Time (season, month, day, hour)
+- Weather 
+ - Not suprisingly, rides happen most during the waking hours of a day and peak usage times happen during work days when people commute to and from work.
+
+<br>
 <img src="readme_photos/categorical_distributions.png" style>
 <br>  
-<img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
-<br>  
-<img src="readme_photos/numerical_distributions.png" style>
-<br>  
+
+<br>
+<img src="readme_photos/by_hour_dsitributions.png" style="width: 843px; height: 834px;">
+<br>
+
+<br>
 <img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;">
 <br>  
 
+
+### Exploring our Numrical Variables
+Temperature, humidity, wind speed
+<br>
+<img src="readme_photos/numerical_distributions.png" style>
+<br>  
+
+<br>
+<img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
+<br>  
 
 ## Model Building  
 
