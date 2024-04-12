@@ -72,16 +72,16 @@ We have:
 
 ## Exploratory Data Analysis  
 
-### Exploring our Categorical Variables
+### Categorical Variables
 Our categorical variables can be broken up into two types:
 - Time (season, month, day, hour)
 - Weather Status (Clear, Couldy/Misty, Light Rain/Snow, Heavy Rain/Snow)
- <br>
+<br>
 Looking at the plots there are a few takeaways:
 - More rides during the summer, fall, and winter seasons (the warmer seasons)
 - More rides on the weekends
 - More rides when the weather is better
-
+<br>
 It looks like there were only 223 brave souls that decided to rent a bike when the weather was horrible.
 
 <br>
@@ -105,7 +105,7 @@ Explanation of Weather Situations
 3 (Light Rain/Snow): Light Snow, Light Rain or Thunderstorm or Scattered clouds, Light Rain or Scattered clouds
 4 (Heavy Rain/Snow): Heavy Rain or Ice Pallets or Thunderstorm or Mist, Snow or Fog
 
-### Exploring our Numerical Variables
+### Numerical Variables
 Temperature, humidity, wind speed
 <br>
 <img src="readme_photos/numerical_distributions.png" style>
