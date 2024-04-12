@@ -83,7 +83,7 @@ Our categorical variables can be broken up into two types:
 <br>  
 
 <br>
-<img src="readme_photos/by_hour_dsitributions.png" style="width: 843px; height: 834px;">
+<img src="readme_photos/by_hour_dsitributions.png" style="width: 590px; height: 583px;">
 <br>
 
 <br>
