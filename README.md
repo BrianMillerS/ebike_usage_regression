@@ -15,7 +15,7 @@
 # Project Takeaway
 The goal of this project was to understand the patterns of E-bike usage and create a predictive model that can forecast the number of riders per hour based on time and weather conditions.
 - Six models were tested: Linear Regression, Decision Tree Regressor, Random Forest Regressor, SGD Regressor, Bagging Regressor.
-- Random Forest Regressor had the best performace after parameter tuning with a R^2 = 0.89 and RMSE = 0.33 (6-fold xval).
+- Random Forest Regressor had the best performance after parameter tuning with a R^2 = 0.89 and RMSE = 0.33 (6-fold xval).
 - Warmer weather, less humidity, and it being rush hour times were the best predictors of E-bike usage.
 
 The insights from this project could enable Capital Bikeshare and similar companies to make evidence-based decisions about where and when to allocate resources, leading to increased operational efficiency and customer satisfaction.  
@@ -78,7 +78,7 @@ We have:
 ### Categorical Variables
 Our categorical variables can be broken up into two types:
 - Time (season, month, day, hour)
-- Weather Status (Clear, Couldy/Misty, Light Rain/Snow, Heavy Rain/Snow)  
+- Weather Status (Clear, Cloudy/Misty, Light Rain/Snow, Heavy Rain/Snow)  
 <br>
 
 Looking at the plots there are a few takeaways:
@@ -90,7 +90,7 @@ Looking at the plots there are a few takeaways:
 <br>  
 
 Now let's dive a little deeper and break down the average day for an E-bike user:
-- Not suprisingly, rides happen most during the waking hours of a day
+- Not surprisingly, rides happen most during the waking hours of a day
 - Peak usage times happen during work days when people commute to and from work
 - 
   
@@ -98,7 +98,7 @@ Now let's dive a little deeper and break down the average day for an E-bike user
 <br>
 
 Finally let's break down the interplay between weather for a given season:
-- Bad weather really does dissuade riders, regarless of season
+- Bad weather really does dissuade riders, regardless of season
 - Again we see a trend for more rides during warmer months
 
 <img src="readme_photos/seasonality_chart.png" style="width: 723px; height: 541px;"> 
@@ -112,7 +112,7 @@ Explanation of Weather Situations:
 <br>
 
 ### Numerical Variables
-Our categorical variabeles are the following:
+Our categorical variables are the following:
 - Temperature
 - Humidity
 - Wind speed
@@ -120,10 +120,10 @@ Our categorical variabeles are the following:
 <img src="readme_photos/numerical_distributions.png" style>
 <br>  
 
-Creating a quick Pearson's Correlation heatmat we can see:
+Creating a quick Pearson's Correlation heatmap we can see:
 - More rides in higher temperatures
 - Less rides in higher humidities
-- Rides are pretty indiferent about weather it's windy out
+- Rides are pretty indifferent about weather it's windy out
 <img src="readme_photos/coor_map.png" style="width: 621px; height: 673px;">
 <br>  
 
@@ -172,7 +172,7 @@ Overall, both the residual plot and the predicted versus actual values plot, our
 ## Determining Important Variables
 Using our random forest regressor we can identify which variables are the most important for making accurate predictions, the mean gini decrease. 
 
-Not supreisingly we can see that:
+Not surprisingly we can see that:
 - More rides in higher temperatures
 - Less rides in higher humidities
 - More rides during rush hour times
