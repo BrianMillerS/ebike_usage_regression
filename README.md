@@ -162,9 +162,12 @@ Now with the best model selected, and parameters tuned, we can evaluate the mode
 
 <br>
 <img src="readme_photos/predicted_vs_actual.png" style>
+
+ - The points seem more dispersed at the higher end of actual values. This suggests that the model may be more accurate for lower values and less accurate for higher values.
+ - There aren't many points that are extreme outliers, but the spread does increase with the value of the target, which might suggest heteroscedasticity, a condition where the variance of errors differs across the range of the predictor variable.
 <br>
 
-Overall, the model appears to be performing well, with good predictive power and a balance of error types that lean towards correct predictions.
+Overall, both the residual plot and the predicted versus actual values plot, our model seems to generally predict values that are close to the actual values. However, the model’s performance decreases with higher actual values, as indicated by the spread and pattern of residuals, suggesting potential areas for improvement, such as addressing heteroscedasticity or model fit.
 
 ## Determining Important Variables
 Using our random forest regressor we can identify which variables are the most important for making accurate predictions, the mean gini decrease. 
