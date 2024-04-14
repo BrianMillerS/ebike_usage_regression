@@ -153,6 +153,11 @@ Now with the best model selected, and parameters tuned, we can evaluate the mode
 
 <br>
 <img src="readme_photos/residuals.png" style>
+
+ - The residuals are centered around the zero line, which suggests that, on average, the model predictions are fairly accurate.
+ - The spread of residuals appears to be consistent across the range of actual values, indicating that the variance of the errors is constant (homoscedasticity). This is a good sign, as it means the model is equally reliable across the entire range of data.
+ - There are no clear patterns or trends in the residuals, which suggests that the model isn’t systematically over- or under-predicting at different values of the actual variable.
+ - The fact that there are a few residuals that lie quite far from the zero line, especially for higher actual values, indicates the presence of some outliers or extreme values that the model is not predicting well.
 <br>
 
 <br>
@@ -162,9 +167,15 @@ Now with the best model selected, and parameters tuned, we can evaluate the mode
 Overall, the model appears to be performing well, with good predictive power and a balance of error types that lean towards correct predictions.
 
 ## Determining Important Variables
+Using our random forest regressor we can identify which variables are the most important for making accurate predictions, the mean gini decrease. 
 
+Not supreisingly we can see that:
+- More rides in higher temperatures
+- Less rides in higher humidities
+- More rides during rush hour times
 <img src="readme_photos/feature_importance.png" style="width: 882px; height: 675px;">
 
+Now let's visualize the two most important variables and thier relationship towards the number of riders.
 <img src="readme_photos/temp_hum_lin_graph.png" style>
 
 
