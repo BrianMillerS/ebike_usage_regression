@@ -92,7 +92,6 @@ Looking at the plots there are a few takeaways:
 Now let's dive a little deeper and break down the average day for an E-bike user:
 - Not surprisingly, rides happen most during the waking hours of a day
 - Peak usage times happen during work days when people commute to and from work
-- 
   
 <img src="readme_photos/by_hour_dsitributions.png" style="width: 590px; height: 583px;">
 <br>
